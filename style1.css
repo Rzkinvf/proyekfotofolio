@@ -1,0 +1,107 @@
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+* {
+ margin: 0;
+ padding: 0;
+  box-sizing: border-box;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+
+
+
+}
+
+nav{
+    background: #000000;
+      display:flex;
+    padding: 20px;
+        justify-content: left;
+        border: 2px solid;
+
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+
+}
+
+nav ul li {
+    list-style: none;
+    margin: auto;
+    
+    
+}
+nav ul li a{
+    margin: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.home{
+    height: 800px;
+    background-color: #F5DEB3;
+   
+}
+.text{
+    padding: 45px;
+    background: #FFC0CB; 
+    
+    
+}
+
+.biodata{
+    background: #FA8072;
+    height: 500px;
+     display: flex;
+}
+
+.png{
+    height: 250px;
+    width: 300px;
+    float: right;   
+    transparent:  
+  margin: auto; 
+    display: block;
+}
+.foto{ 
+ 
+    height: 100px;
+    width: 100px;    
+    background: #00FF7F ;      
+    padding: 20px;
+    transition:1s;     
+    margin: 20px auto; 
+    display: block;
+    box-shadow: 1px 5px  #006400;
+   
+
+}
+.foto:hover{
+    
+   
+}
+.foto, img{
+    height: 100px;
+    width: 100px;  
+    border-radius: 100%;     
+    
+}
+.about{
+    height: 150px;
+    width: auto;    
+    background: #00FF7F ;      
+    padding: 20px;
+     border-radius: 0 0 0 10px;
+}
